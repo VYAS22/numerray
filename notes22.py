@@ -121,4 +121,4 @@ for i in range(0,9):
 print ('NOTE___PITCH')
 for k in range(15,108):
     print ( str(k + 1) + '  ' + str(NotePitch[k]) + '  ' + Note[k])
-    winsound.Beep( int(NotePitch[k]), 550)
+    winsound.Beep( int(NotePitch[k]), 800)
